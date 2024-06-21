@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    enviroment {
+    environment {
         registry = 'albonio/lanza_dados'
         registryCredentials = 'dockerhub'
         project = 'practica-devops'
